@@ -1,0 +1,96 @@
+#chathistory {
+  outline: 1px solid white;
+  height: 520px;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #212124;
+  font-size: 120%;
+}
+
+#textbox {
+  outline: 1px solid white;
+  height: 1.6em;
+  overflow-y: auto;
+  background-color: #212124;
+  font-size: 120%;
+}
+
+body {
+  background-color: #111112;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#send,
+#chatbox,
+#chathistory,
+#textbox {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#chatbox {
+  width: 1000px;
+  border: none;
+  background-color: #212124;
+  color: white;
+  height: 1.5em;
+  font-size: 100%;
+}
+
+#pfp {
+  border-radius: 100%;
+  height: 1em;
+  padding: 3px;
+}
+
+#warning {
+  height: 1em;
+  padding: 3px;
+}
+
+#send,
+#ncv {
+  border: 1px solid white;
+  background-color: #303133;
+  color: white;
+  border-radius: 20px;
+  font-size: 100%;
+  float: right;
+}
+
+#send:hover,
+#ncv:hover {
+  cursor: pointer;
+  border: 1px solid #94969c;
+  background-color: #303236;
+  color: #94969c;
+  border-radius: 20px;
+}
+
+.usermsg {
+  display: inline-block;
+}
+
+.usermsg img {
+  vertical-align: middle;
+}
+
+.botmsg {
+  display: inline-block;
+}
+
+.botmsg img {
+  vertical-align: middle;
+}
+
+.error {
+  display: inline-block;
+}
+
+.error img {
+  vertical-align: middle;
+}
